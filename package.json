@@ -18,6 +18,9 @@
   "homepage": "https://github.com/kwongholee/lgh_portfolio#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.3"
   }
 }
