@@ -1,9 +1,9 @@
 import './App.css';
 import {Routes, Route} from 'react-router-dom';
-import Main from '../pages/Main';
-import Introduce from '../pages/Introduce';
-import Work from '../pages/Work';
-import Question from '../pages/Question';
+import Main from './pages/Main';
+import Introduce from './pages/Introduce';
+import Work from './pages/Work';
+import Question from './pages/Question';
 
 function App() {
   return (
