@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export default function Downbar() {
   const Icon = styled.div`
+    display: inline-block;
     width: 80px;
     height: 80px;
-    flex-shrink: 0;
     border-radius: 10px;
     background: #D9D9D9;
     color: black;
