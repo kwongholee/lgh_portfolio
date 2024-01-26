@@ -12,6 +12,9 @@ export default function Navbar() {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    float: left;
+    cursor: pointer;
+    margin: 10px;
   `;
 
   const Direct = styled.div`
@@ -23,10 +26,13 @@ export default function Navbar() {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    float: right;
+    margin: 20px;
+    cursor: pointer;
   `
 
   return(
-    <div style={{width: '100%', backgroundColor: '#D9D9D9', height: '10%'}}>
+    <div style={{width: '100%', backgroundColor: '#D9D9D9', height: '10%', textAlign: 'justify', overflow: 'hidden'}}>
       <Title>Gwangholee's Portfolio</Title>
       <Direct>Introduce</Direct>
       <Direct>Works</Direct>

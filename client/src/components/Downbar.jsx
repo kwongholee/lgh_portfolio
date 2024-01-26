@@ -8,15 +8,14 @@ export default function Downbar() {
     border-radius: 10px;
     background: #D9D9D9;
     color: black;
+    margin: 10px;
   `
 
   return(
-    <div style={{width: '100%', height: '10%', backgroundColor: 'black', color: 'white'}}>
-      <div>
-        <Icon>icon 1</Icon>
-        <Icon>icon 2</Icon>
-        <Icon>icon 3</Icon>
-      </div>
+    <div style={{width: '100%', height: '13%', backgroundColor: 'black', color: 'white', textAlign: 'center', position: 'fixed', left: 0, bottom: 0}}>
+      <Icon>Gmail</Icon>
+      <Icon>Github</Icon>
+      <Icon>Instagram</Icon>
 
       <div style={{textAlign: 'center'}}>
         © 2024. Lee Gwang Ho. All rights reserved 
