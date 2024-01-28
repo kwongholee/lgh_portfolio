@@ -1,4 +1,5 @@
 import {styled} from 'styled-components';
+import {useNavigate} from 'react-router-dom';
 
 export default function Navbar() {
   const Title = styled.div`
@@ -31,12 +32,14 @@ export default function Navbar() {
     cursor: pointer;
   `
 
+  let navigate = useNavigate();
+
   return(
     <div style={{width: '100%', backgroundColor: '#D9D9D9', height: '10%', textAlign: 'justify', overflow: 'hidden'}}>
       <Title>Gwangholee's Portfolio</Title>
-      <Direct>Introduce</Direct>
-      <Direct>Works</Direct>
-      <Direct>Questions</Direct>
+      <Direct onClick={() => {navigate('/introduce')}}>Introduce</Direct>
+      <Direct onClick={() => {navigate('/work')}}>Works</Direct>
+      <Direct onClick={() => {navigate('/question')}}>Questions</Direct>
     </div> 
   )
 }
